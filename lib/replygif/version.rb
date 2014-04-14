@@ -1,3 +1,3 @@
-module Replygif
-  VERSION = "0.0.1"
+class Replygif
+  VERSION = "0.0.2"
 end
