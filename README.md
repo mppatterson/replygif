@@ -1,24 +1,28 @@
 # Replygif
 
-TODO: Write a gem description
+The unofficial replygif API for ruby!
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'replygif'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install replygif
+```gem 'replygif', git: 'https://github.com/mppatterson/replygif.git'```
 
 ## Usage
 
-TODO: Write usage instructions here
+Get all images with tag information:
+```
+replygif = Replygif.new
+replygif.tags
+# Get the reaction tags only
+replygif.reaction_tags
+```
+
+Get gifs with a certain reply, such as "okay"
+```
+replygif.with_reply("okay")
+```
+
 
 ## Contributing
 
